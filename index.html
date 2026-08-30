@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS & JavaScript/style.css">
+</head>
+<body>
+    <header class="site-header">
+    <div class="site-header-inner">
+    <span class="brand">Activity Portfolio DCIT 26</span>
+    <nav aria-label="Main navigation">
+      <a href="#about" class="nav-link active" data-target="about">About</a>
+      <a href="#activities" class="nav-link" data-target="activities">Activities</a>
+    </nav>
+  </div>
+</header>
+ 
+<main>
+
+    <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-photo">
+        <img src="images/portfolio_headshot.jpg" alt="Portrait photo"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      </div>
+      <div class="about-copy">
+        <h1>Christian Kyle L. Tagoon</h1>
+        <p class="role">Computer Science Student</p>
+        <p>
+          Hi, I'm Christian Kyle L. Tagoon, a Computer Science Student.
+          This portfolio was built as a part of a class output to document
+          class activities such as laboratory work, quizzes, and examinations
+          in this output I've used HTML, CSS, and JavaScript.
+        </p>
+        <p>
+          Outside of class, I enjoy playing online games, 
+          keeping up with emerging technologies, and researching topics 
+          that push me to keep learning. My long-term goal is to work in 
+          AI engineering, explore Machine Learning, Deep Learning, Neural Networks, 
+          and eventually Quantum Computing.
+        </p>
+        
+        <p class="skills-label">Languages Used</p>
+        <p class="skills-line">HTML, CSS, JavaScript</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="activities" class="section section-alt">
+    <div class="container">
+      <h2>Activities</h2>
+      <p class="section-intro">This section is the records of tasks given such as laboratory work, quizzes, and examination. </p>
+      
+      <div class="filter-tabs" id="filterTabs" role="tablist" aria-label="Filter activities">
+        <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">All Activities</button>
+      </div>
+ 
+      <div class="log-grid" id="logGrid">
+      </div>
+    </div>
+  </section>
+ 
+</main>
+
+<div class="modal-backdrop" id="modalBackdrop">
+  <article class="modal-card" id="modalCard" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <p class="modal-eyebrow" id="modalCategory"></p>
+    <h3 id="modalTitle"></h3>
+    <p class="modal-date" id="modalDate"></p>
+    <div class="modal-body" id="modalBody"></div>
+  </article>
+</div>
+
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close full-size photo">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script src="CSS & JavaScript/script.js"></script>
+
+</body>
+</html>

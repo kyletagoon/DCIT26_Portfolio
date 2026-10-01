@@ -14,7 +14,7 @@ const ACTIVITIES = [
     title: "Quiz 2: Requirements Analysis & Unified Modeling Language",
     category: "Quizzes",
     date: "2026-10-01", // YYYY/MM/DD
-    images: ["images/Quizzes/Quiz2_DCIT26.jpg"],
+    images: ["images/Quizzes/QUIZ2_DCIT26.jpg"],
     score: "20/20",
     summary: "Assessment in a form of online quiz about Requirements Analysis & Unified Modeling Language (UML)",
     details: "Quiz about Requirements Analysis & Unified Modeling Language.",
@@ -25,7 +25,7 @@ const ACTIVITIES = [
     title: "Quiz 3: The SOLID Principles",
     category: "Quizzes",
     date: "2026-10-01", // YYYY/MM/DD
-    images: ["images/Quizzes/Quiz3_DCIT26.jpg"],
+    images: ["images/Quizzes/QUIZ3_DCIT26.jpg"],
     score: "20/20",
     summary: "Assessment in a form of online quiz about SOLID Principles.",
     details: "Quiz about SOLID Principles.",

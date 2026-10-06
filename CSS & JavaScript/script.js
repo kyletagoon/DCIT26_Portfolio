@@ -46,7 +46,7 @@ const ACTIVITIES = [
    {
     title: "MIDTERMS EXAMS DCIT 26",
     category: "Examinations",
-    date: "2026-10-01", // YYYY/MM/DD
+    date: "2026-10-06", // YYYY/MM/DD
     images: ["images/Examinations/MIDTERMS_EXAM_DCIT26.jpg"],
     score: "69/70",
     summary: "Examinations for MIDTERMS DCIT 26.",

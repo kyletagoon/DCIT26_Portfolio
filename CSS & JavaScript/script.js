@@ -54,6 +54,28 @@ const ACTIVITIES = [
 
   },
 
+  {
+    title: "Quiz 4: Software Review & Inspection",
+    category: "Quizzes",
+    date: "2026-11-21", // YYYY/MM/DD
+    images: ["images/Quizzes/QUIZ4_DCIT26.jpg"],
+    score: "20/20",
+    summary: "Assessment in a form of online quiz about the Software Review & Inspection.",
+    details: "Quiz about the Software Review & Inspection.",
+
+  },
+
+  {
+    title: "Quiz 5: Advanced Software Architecture and Design Principles",
+    category: "Quizzes",
+    date: "2026-11-21", // YYYY/MM/DD
+    images: ["images/Quizzes/QUIZ5_DCIT26.jpg"],
+    score: "20/20",
+    summary: "Assessment in a form of online quiz about Advanced Software Architecture and Design Principles.",
+    details: "Quiz about Advanced Software Architecture and Design Principles.",
+
+  },
+
   
 
 ];
